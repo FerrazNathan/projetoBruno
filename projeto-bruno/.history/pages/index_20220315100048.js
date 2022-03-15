@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Login from '../components/Login'
+import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -8,7 +8,6 @@ export default function Home() {
       <Head>
         <title>Projeto Bruno</title>        
       </Head>
-      <Login />
     </div>
   )
 }
