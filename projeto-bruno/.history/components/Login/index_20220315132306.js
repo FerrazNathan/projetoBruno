@@ -2,12 +2,12 @@ import React, { useState } from 'react'
 import { useRouter } from 'next/router'
 import * as S from './styles'
 
-export default function Form() {
+export default function Login() {
 
   const [password, setPassword] = useState('')
   const acesso = '9876543210'
   const redirect = useRouter()
-
+  
   const submit = (event) => {
     event.preventDefault()
 
@@ -28,5 +28,6 @@ export default function Form() {
       />
       <S.Button type='submit'>Acessar</S.Button>
     </S.Container>
+  )
   )
 }
