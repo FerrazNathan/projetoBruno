@@ -1,20 +1,12 @@
-import React, { useState } from 'react'
-import { useRouter } from 'next/router'
+import React from 'react'
 import * as S from './styles'
 
-export default function Form() {
+export default function Login() {
 
-  const [password, setPassword] = useState('')
-  const acesso = '9876543210'
-  const redirect = useRouter()
+  [password, setPassword] = useState('')
 
   const submit = (event) => {
     event.preventDefault()
-
-    if (password === acesso) {
-      localStorage.setItem('logged', 'isLogged')
-      redirect.push('/')
-    }
   }
 
   return (

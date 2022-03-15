@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useRouter } from 'next/router'
 import * as S from './styles'
 
-export default function Form() {
+export default function Form {
 
   const [password, setPassword] = useState('')
   const acesso = '9876543210'
