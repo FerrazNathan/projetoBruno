@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Sandy & Bruno</title>
+        <title>Projeto Bruno</title>        
       </Head>
       <h1> Você está na home</h1>
     </div>

@@ -13,7 +13,7 @@ export default function Login() {
       <S.Content>
         <S.Box>
           <S.Title>Bruno Macedo & Sandy Bruna</S.Title>
-          <p>15/11/2022</p>
+          <S.text>15/11/2022</S.text>
         </S.Box>
         <Form />
       </S.Content>

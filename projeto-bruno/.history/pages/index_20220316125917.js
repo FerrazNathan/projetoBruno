@@ -6,6 +6,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Sandy & Bruno</title>
+
       </Head>
       <h1> Você está na home</h1>
     </div>
