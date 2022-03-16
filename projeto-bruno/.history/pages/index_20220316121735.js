@@ -5,7 +5,9 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Sandy & Bruno</title>
+        <title>Projeto Bruno</title>
+
+<link href="https: //fonts.googleapis.com/css2? family= Dancing+Script:wght@600 & display=swap" rel="stylesheet"></link>
       </Head>
       <h1> Você está na home</h1>
     </div>

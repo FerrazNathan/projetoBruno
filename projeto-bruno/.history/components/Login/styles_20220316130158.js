@@ -41,6 +41,6 @@ export const Button = styled.button`
   border-radius: 5px;
   border: none;
   padding: 10px;
-  margin-right: 360px;
+  margin-right: 350px;
   cursor: pointer;
 `

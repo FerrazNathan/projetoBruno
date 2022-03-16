@@ -22,7 +22,7 @@ export const Title = styled.p`
 `
 
 export const Input = styled.input`
-  width: 405px;
+  width: 400px;
   height: 30px;
   border-radius: 5px;
   border: 1px solid #a49186;
@@ -41,6 +41,6 @@ export const Button = styled.button`
   border-radius: 5px;
   border: none;
   padding: 10px;
-  margin-right: 360px;
+  margin-right: 330px;
   cursor: pointer;
 `

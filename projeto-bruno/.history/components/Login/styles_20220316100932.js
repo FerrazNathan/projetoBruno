@@ -13,8 +13,8 @@ export const Container = styled.form`
 export const Title = styled.p`
   color: #ceae74;
   background-color: #fcf8e3;
-  width: 375px;
-  height: 25px;
+  width: 380px;
+  height: 30px;
   border-radius: 5px;
   padding: 25px;
   border: 1px solid #d5b985;
@@ -22,7 +22,7 @@ export const Title = styled.p`
 `
 
 export const Input = styled.input`
-  width: 405px;
+  width: 400px;
   height: 30px;
   border-radius: 5px;
   border: 1px solid #a49186;
@@ -41,6 +41,6 @@ export const Button = styled.button`
   border-radius: 5px;
   border: none;
   padding: 10px;
-  margin-right: 360px;
+  margin-right: 330px;
   cursor: pointer;
 `

@@ -5,7 +5,9 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Sandy & Bruno</title>
+        <title>Projeto Bruno</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
       </Head>
       <h1> Você está na home</h1>
     </div>
