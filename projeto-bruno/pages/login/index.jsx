@@ -1,9 +1,9 @@
 import React from 'react'
 import Head from 'next/head'
 import Form from '../../components/Login'
+import Menu from '../../components/Menu'
 import * as S from './styleLogin'
 import { dataText } from '../../src/common/constants/dataText'
-
 
 export default function Login() {
 	return (
@@ -17,6 +17,7 @@ export default function Login() {
 					<p>{dataText.DATE}</p>
 				</S.Box>
 				<Form />
+				<Menu />
 			</S.Content>
 		</S.Container>
 	)
