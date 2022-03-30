@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Container = styled.form`
   max-width: 1200px;
@@ -41,6 +41,6 @@ export const Button = styled.button`
   border-radius: 5px;
   border: none;
   padding: 10px;
-  margin-right: 360px;
+  margin-right: 350px;
   cursor: pointer;
 `

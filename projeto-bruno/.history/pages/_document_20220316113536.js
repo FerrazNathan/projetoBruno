@@ -9,8 +9,8 @@ export default class MyDocument extends Document {
 
     // Step 2: Retrieve styles from components in the page
     const page = renderPage((App) => (props) =>
-      sheet.collectStyles(<App {...props} />),
-    );
+    //   sheet.collectStyles(<App {...props} />),
+    // );
 
     // Step 3: Extract the styles as <style> tags
     const styleTags = sheet.getStyleElement();
@@ -25,9 +25,6 @@ export default class MyDocument extends Document {
         <Head>
           {/* Step 5: Output the styles in the head  */}
           {this.props.styleTags}
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-          <link href="https: //fonts.googleapis.com/css2? family= Dancing+Script:wght@600 & display=swap" rel="stylesheet" />
         </Head>
         <body>
           <Main />

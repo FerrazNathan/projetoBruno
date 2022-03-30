@@ -1,10 +1,14 @@
 import React from 'react'
 import Form from '../components/Login'
+import * as S from '../styles/styleLogin'
 
 export default function Login() {
   return (
-    <div>
+    <S.Content>
+      <div>
+        <h1>Sandy & Bruno</h1>
+      </div>
       <Form />
-    </div>
+    </S.Content>
   )
 }

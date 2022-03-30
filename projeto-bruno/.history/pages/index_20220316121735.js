@@ -1,12 +1,13 @@
 import Head from 'next/head'
 import Login from '../components/Login'
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
-        <title>Projeto Bruno</title>        
+        <title>Projeto Bruno</title>
+
+<link href="https: //fonts.googleapis.com/css2? family= Dancing+Script:wght@600 & display=swap" rel="stylesheet"></link>
       </Head>
       <h1> Você está na home</h1>
     </div>
