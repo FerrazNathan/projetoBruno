@@ -4,7 +4,7 @@ import * as S from './styles'
 export default function Menu() {
 	return (
 		<S.Container>
-			<S.Lista>
+			<S.List>
 				<li onClick={() => window.location.href = '/'}>Home</li>
 				<li onClick={() => window.location.href = '/'}>Os noivos</li>
 				<li onClick={() => window.location.href = '/'}>Cerimônia</li>
@@ -12,7 +12,7 @@ export default function Menu() {
 				<li onClick={() => window.location.href = '/'}>Lista de presentes</li>
 				<li onClick={() => window.location.href = '/'}>Confirme sua presença</li>
 				<li onClick={() => window.location.href = '/'}>Recados</li>
-			</S.Lista>
+			</S.List>
 		</S.Container>
 	)
 }
