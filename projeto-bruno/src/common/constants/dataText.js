@@ -5,5 +5,7 @@ export const dataText = {
 	LOGIN: 'login',
 	TITLELOGIN: 'Esse site exige senha para acessá-lo:',
 	TITLEBUTTON: 'Acessar',
-
+	ERROR: 'Errou a senha',
+	ERRORS: 'Será que vc foi mesmo convidado?',
+	DANGER: 'Some daqui meu'
 }
