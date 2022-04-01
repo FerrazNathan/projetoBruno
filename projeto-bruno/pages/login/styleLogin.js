@@ -1,16 +1,8 @@
 import styled from 'styled-components'
 import Image from 'next/image'
 
-export const Title = styled.h1`
-  font-family: 'Great Vibes', cursive;
-  color: #9b867a;
-  font-size: 64px;
-  font-weight: 400;
-  text-align: center;
-  margin-bottom: 0;
-`
-
 export const Content = styled.div`
+	margin-top: 100px;
   & p {
     color: #9b867a;
     font-size: 20px;
@@ -20,21 +12,29 @@ export const Content = styled.div`
 	}
 `
 
+export const Title = styled.h1`
+  font-family: 'Great Vibes', cursive;
+  color: #9b867a;
+  font-size: 64px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 0;
+`
+
 export const ContentImage = styled.div`
 	display: flex;
 	justify-content: center;
-	margin: 40px
+	margin-top: 50px;
 `
 
 export const Thumbnail = styled(Image)`
-  border-radius: 100px;
+  border-radius: 120px;
 `
-
-
 
 export const BoxComponents = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	height: 100%;
+	height: 200px;
+	margin-top: 30px;
 `

@@ -1,7 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
 import Form from '../../components/Login'
-import Menu from '../../components/Menu'
 import * as S from './styleLogin'
 import { dataText } from '../../src/common/constants/dataText'
 import Imagem from '../../src/assets/indice.jpeg'
@@ -20,12 +19,11 @@ export default function Login() {
 				<S.Thumbnail
 					src={Imagem}
 					alt='Foto do casal'
-					width={200}
-					height={200}
+					width={250}
+					height={250}
 				/>
 			</S.ContentImage>
 			<S.BoxComponents>
-				<Menu />
 				<Form />
 			</S.BoxComponents>
 		</>
