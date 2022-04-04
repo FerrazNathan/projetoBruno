@@ -8,6 +8,7 @@ export default function Error() {
 			<S.Content>
 				<h1>{dataText.ERROR}</h1>
 				<p>{dataText.ERRORS}</p>
+				<p>{dataText.POUT}</p>
 				<p>{dataText.DANGER}</p>
 			</S.Content>
 		</S.Container>

@@ -13,22 +13,22 @@ export const Container = styled.form`
 export const Title = styled.p`
   color: #ceae74;
   background-color: #fcf8e3;
-  width: 375px;
-  height: 25px;
+  width: 550px;
+  height: 20px;
   border-radius: 5px;
-  padding: 25px;
+  padding: 15px;
   border: 1px solid #d5b985;
   font-weight: 500;
 `
 
 export const Input = styled.input`
-  width: 405px;
-  height: 30px;
+  width: 550px;
+  height: 10px;
   border-radius: 5px;
   border: 1px solid #a49186;
   margin-bottom: 10px;
   outline: 0;
-  padding: 10px;
+  padding: 15px;
   cursor: pointer;
   &:focus{
     background-color: #e8f0fe;
@@ -41,6 +41,6 @@ export const Button = styled.button`
   border-radius: 5px;
   border: none;
   padding: 10px;
-  margin-right: 360px;
+  margin-right: 510px;
   cursor: pointer;
 `

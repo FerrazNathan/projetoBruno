@@ -7,5 +7,6 @@ export const dataText = {
 	TITLEBUTTON: 'Acessar',
 	ERROR: 'Errou a senha',
 	ERRORS: 'Será que vc foi mesmo convidado?',
-	DANGER: 'Some daqui meu'
+	DANGER: 'Some daqui meu',
+	POUT: 'Que coisa feia, querendo entrar de bicão!'
 }

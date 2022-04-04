@@ -11,10 +11,6 @@ export default function Login() {
 			<Head>
 				<title>{dataText.TITLEPAGE}</title>
 			</Head>
-			<S.Content>
-				<S.Title>{dataText.TITLE}</S.Title>
-				<p>{dataText.DATE}</p>
-			</S.Content>
 			<S.ContentImage>
 				<S.Thumbnail
 					src={Imagem}
@@ -23,6 +19,10 @@ export default function Login() {
 					height={250}
 				/>
 			</S.ContentImage>
+			<S.Content>
+				<S.Title>{dataText.TITLE}</S.Title>
+				<p>{dataText.DATE}</p>
+			</S.Content>
 			<S.BoxComponents>
 				<Form />
 			</S.BoxComponents>
