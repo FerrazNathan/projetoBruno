@@ -7,7 +7,7 @@ import Imagem from '../src/assets/indice.jpeg'
 
 export default function Home() {
 	return (
-		<div>
+		<>
 			<Head>
 				<title>{dataText.TITLEPAGE}</title>
 			</Head>
@@ -26,6 +26,6 @@ export default function Home() {
 			<S.BoxComponents>
 				<Menu />
 			</S.BoxComponents>
-		</div>
+		</>
 	)
 }
